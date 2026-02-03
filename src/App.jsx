@@ -61,13 +61,14 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Will you be my Partner, Tomiwa?
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
               className={`bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mr-4`}
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
+              window.location.href = "https://wa.me/+2348149393239";
             >
               Yes
             </button>
