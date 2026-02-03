@@ -69,6 +69,7 @@ export default function Page() {
               style={{ fontSize: yesButtonSize }}
               onClick={() => setYesPressed(true)}
             >window.location.href = "https://wa.me/+2348149393239";
+            >
               Yes
             </button>
             <button
